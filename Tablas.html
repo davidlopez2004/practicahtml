@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td {
+            background-color: #e6f7ff;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+    </style>
+    <title>Horario de Clase</title>
+</head>
+<body>
+
+<!-- Tabla 1: Horario -->
+<h2>Horario de Clase</h2>
+<table>
+    <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+    <tr>
+        <td>8:00 - 9:00</td>
+        <td rowspan="2">Matemáticas</td>
+        <td>Historia</td>
+        <td rowspan="2">Ciencias</td>
+        <td>Idiomas</td>
+        <td>Deporte</td>
+    </tr>
+    <tr>
+        <td>9:00 - 10:00</td>
+        <td>Geografía</td>
+        <td>Idiomas</td>
+        <td>Arte</td>
+    </tr>
+</table>
+
+<!-- Tabla 2: Marcador -->
+<h2 id="segunda_tabla">Información Adicional</h2>
+<table>
+    <tr>
+        <th>Actividad</th>
+        <th>Día</th>
+        <th>Detalles</th>
+    </tr>
+    <tr>
+        <td colspan="2">Reunión de Padres</td>
+        <td rowspan="2"><img src="reunion padres.jpg" alt="Reunión de Padres"></td>
+    </tr>
+    <tr>
+        <td>Jueves</td>
+        <td>Salón 203 a las 18:00</td>
+    </tr>
+</table>
+
+</body>
+</html>
